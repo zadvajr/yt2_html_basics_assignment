@@ -4,8 +4,59 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daniel Zadva Jnr | Portfolio Website</title>
+    <style>
+      * {
+        border: 1px solid red;
+        margin: 15px;
+        padding: 15px;
+      }
+    </style>
   </head>
   <body>
-    <img src="./images/logo.svg" alt="" />
+    <!-- header section containing logo and nav list -->
+    <header>
+      <div class="box-a">
+        <a href="/"><img src="./images/logo.svg" alt="Page Logo" /></a>
+      </div>
+      <div class="box-b">
+        <nav>
+          <ul>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact" class="contact-me">Contact me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- Main content of the page goes here -->
+    <main>
+      <div class="main-a">
+        <h4>Hi, I am</h4>
+        <h1>Tomasz Gajda</h1>
+        <p>Front-end Developer / UI Designer</p>
+        <div class="btn">
+          <a href="mailto:danielzadva@gmail.com" class="btn-lnk" target="_blank"
+            ><img src="./images/email.svg" alt="Email Icon"
+          /></a>
+          <a href="https://github.com/zadvajr" class="btn-lnk" target="_blank"
+            ><img src="./images/github.svg" alt="GitHub Icon"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/zadva/"
+            class="btn-lnk"
+            target="_blank"
+            ><img src="./images/linkedin.svg" alt="LinkedIn Icon"
+          /></a>
+        </div>
+      </div>
+      <div class="main-b">
+        <img src="./images/user.png" alt="User profile picture" />
+        <p></p>
+      </div>
+    </main>
+    <!-- end of main content -->
   </body>
 </html>
